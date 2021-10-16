@@ -1,0 +1,79 @@
+body {
+    font-family: 'Architects Daughter', cursive;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#top-row {
+    display: flex;
+}
+
+#mid-row {
+    display: flex;
+}
+
+#bot-row {
+    display: flex;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+}
+
+.bottom-border {
+    border-bottom: 2px solid black;
+}
+
+.right-border {
+    border-right: 2px solid black;
+}
+
+#status-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+#game-status {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.5em;
+}
+
+#form input {
+    font-size: 1em;
+    font-family: 'Architects Daughter', cursive;
+}
+
+#form button {
+    margin-top: 10px;
+    padding: 8px 20px;
+}
